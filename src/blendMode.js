@@ -17,7 +17,7 @@ const MODE = {
   overlay: "overlay",
   darken: "darken",
   lighten: "lighten",
-  colorDodge: "color-dodge",
+  colorDodge: "color-dodge", 
   colorBurn: "color-burn",
   hardLight: "hard-light",
   softLight: "soft-light",

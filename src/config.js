@@ -25,11 +25,19 @@ const baseUri = "ipfs://NewUriToReplace";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 2,
-    layersOrder: [
-      { name: "BG" },
-      { name: "Head" },
+    growEditionSizeTo: 4,
+    layersOrder: [ 
+      { name: "Background" },  
+      { name: "Head" }, 
+      { name: "Headwear" },   
+      { name: "Body" },
       { name: "Shirt" },
+      { name: "Pants" },
+      { name: "Weapon" },      
+      { name: "Card" },
+      { name: "Card Symbol" },           
+      { name: "Eyes" },
+             
     ],
   },
 ];
@@ -39,8 +47,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1000,
+  height: 1000,
 };
 
 const background = {
