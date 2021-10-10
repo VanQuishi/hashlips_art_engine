@@ -27,12 +27,13 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 4,
     layersOrder: [ 
-      { name: "Background" },  
-      { name: "Head" }, 
-      { name: "Headwear" },   
+      { name: "Background" },         
       { name: "Body" },
-      { name: "Shirt" },
       { name: "Pants" },
+      { name: "Shirt" },
+      { name: "Head" }, 
+      { name: "Headwear" },
+      
       { name: "Weapon" },      
       { name: "Card" },
       { name: "Card Symbol" },           
