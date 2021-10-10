@@ -8,17 +8,28 @@ const description =
   "This is the description of your NFT project, remember to replace this";
 const baseUri = "ipfs://NewUriToReplace";
 
+// const layerConfigurations = [
+//   {
+//     growEditionSizeTo: 10,
+//     layersOrder: [
+//       { name: "Background" },
+//       { name: "Eyeball" },
+//       { name: "Eye color" },
+//       { name: "Iris" },
+//       { name: "Shine" },
+//       { name: "Bottom lid" },
+//       { name: "Top lid" },
+//     ],
+//   },
+// ];
+
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 2,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "BG" },
+      { name: "Head" },
+      { name: "Shirt" },
     ],
   },
 ];
